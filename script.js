@@ -8,6 +8,8 @@ let money = 1000, //Доход за месяц
 
 let budgetDay = money / 30;
 
+let addExpensesLength = addExpenses.length;
+
 
 alert ('ok');
 
@@ -16,3 +18,11 @@ console.log( typeof (income) );
 console.log( typeof (deposit) );
 
 console.log( budgetDay );
+console.log( addExpensesLength );
+
+console.log( 'Период равен ' + period + ' месяцев');
+console.log( 'Цель заработать ' + mission + ' рублей/долларов/гривен/юани');
+
+console.log( addExpenses.toLowerCase());
+
+console.log( addExpenses.split(', '));
